@@ -1,0 +1,3 @@
+<p><span style="color: red">Este é um e-mail automático, favor não responder.</span></p>
+<p>Prezados,</p>
+<p>Segue abaixo relação dos colaboradores que tiveram sua conta desativada no mês de <b>%MES_ANTERIOR%</b>.</p>

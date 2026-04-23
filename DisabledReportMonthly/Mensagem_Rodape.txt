@@ -1,0 +1,7 @@
+<p>Total atingido: %TOTAL%</p>
+<p>Extração iniciada às <B>%SCRIPT_INICIO%</B></p>
+<p>Relatório concluído às <B>%SCRIPT_FIM%</B></p>
+<p>Em caso de dúvidas, favor contatar-nos pelo telefone (11) 3157-9460.</p>
+<p>Atenciosamente,<br/>
+<strong>Tecnologia da Informação</strong>
+</p>
