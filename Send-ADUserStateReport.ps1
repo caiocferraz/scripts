@@ -32,7 +32,12 @@ if ($Month -eq -1)
 }
 $lastMonthName = [System.Globalization.CultureInfo]::GetCultureInfo("pt-BR").DateTimeFormat.GetMonthName($selectedMonthIdx)
 
-$MailMsgHeader     = Get-Content ".\Mensagem_Cabecalho.txt"
+$MailMsgHeader     = 
+<p><span style="color: red">Este é um e-mail automático, favor não responder.</span></p>
+<p>Prezados,</p>
+<p>Segue abaixo relação dos colaboradores que tiveram sua conta desativada no mês de <b>%MES_ANTERIOR%</b>.</p>
+
+
 $MailMsgFooter     = Get-Content ".\Mensagem_Rodape.txt"
 $MailMsgCss        = Get-Content ".\Mensagem_CSS.txt"
 $MailMsgSubject    = "Relatório de usuários desativados: $lastMonthName/$selectedYear"
